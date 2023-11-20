@@ -15,12 +15,12 @@ public class ClaseParaDepurar {
 
 	public double echaCuentas() {
 		lista = new LinkedList<Double>();
-		for (int i = 0; i<100;i++){
+		for (int i = 0; i<50;i++){
 			lista.add((double)i);
 		}
 		suma = 0.0;
 		for (Double valor : lista){
-			suma +=valor;
+			suma -=valor;
 		}
 		return suma;
 	}
