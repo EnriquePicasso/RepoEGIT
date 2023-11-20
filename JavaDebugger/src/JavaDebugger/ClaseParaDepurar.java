@@ -7,6 +7,7 @@ public class ClaseParaDepurar {
 	
 	private double suma;
 	private List<Double> lista;
+	private double resta;
 
 	public ClaseParaDepurar() {
 		System.out.println("construyendo clase");
@@ -20,7 +21,7 @@ public class ClaseParaDepurar {
 		}
 		suma = 0.0;
 		for (Double valor : lista){
-			suma -=valor;
+			suma +=valor;
 		}
 		return suma;
 	}
