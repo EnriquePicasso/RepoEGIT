@@ -8,6 +8,7 @@ public class ClaseParaDepurar {
 	private double suma;
 	private List<Double> lista;
 	private double resta;
+	private int num1;
 
 	public ClaseParaDepurar() {
 		System.out.println("construyendo clase");
